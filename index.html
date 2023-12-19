@@ -16,9 +16,9 @@
     </header>
 
     <main>
-        <section id="preview">
+        <section id="hero">
 
-            <h1>Plan your next big <br> trip overseas.</h1>
+            <h1>Plan your next big trip overseas.</h1>
 
             <button>Begin Plans</button>
             <button>Review Plans</button>
@@ -26,9 +26,9 @@
             <img src="img/Preview_Background.png">
         </section>
 
-        <section id="metrics">
+        <section id="statistics">
 
-            <div class="metric">
+            <div class="statistics__metric">
 
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" fill="none">
@@ -40,7 +40,7 @@
                 <p>Travel to over 23 thousand locations around the world.</p>
             </div>
 
-            <div class="metric">
+            <div class="statistics__metric">
 
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" fill="none">
@@ -54,7 +54,7 @@
                 <p>Read tens of thousands of reviews of destinations.</p>
             </div>
 
-            <div class="metric">
+            <div class="statistics__metric">
 
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" fill="none">
@@ -71,20 +71,20 @@
             </div>
         </section>
 
-        <section id="toolList">
+        <section id="tools">
 
-            <p class="sectionName">Tool list</p>
+            <p class="section-name">Tool list</p>
 
-            <div class="horizontalTitleAndText">
+            <div class="tools__header">
 
                 <h2>Use our assortment <br> of travel plan tools</h2>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar lorem justo, Lorem ipsum dolor sit amet, consectetur</p>
             </div>
 
-            <div id="tools">
+            <div class="tools__items-container">
 
-                <div class="tool">
+                <div class="tools__item">
 
                     <img src="img/Tool_Dates.png">
 
@@ -94,7 +94,7 @@
                     <button>Learn more</button>
                 </div>
 
-                <div class="tool">
+                <div class="tools__item">
 
                     <img src="img/Tool_Flights.png">
 
@@ -104,7 +104,7 @@
                     <button>Learn more</button>
                 </div>
 
-                <div class="tool">
+                <div class="tools__item">
 
                     <img src="img/Tool_Finances.png">
 
@@ -116,18 +116,18 @@
             </div>
         </section>
 
-        <section id="photoGallery">
+        <section id="gallery">
 
-            <p class="sectionName">Photo gallery</p>
+            <p class="section-name">Photo gallery</p>
 
-            <div class="horizontalTitleAndText">
+            <div class="gallery__header">
 
                 <h2>View the wonderful <br> places you can visit</h2>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar lorem justo, Lorem ipsum dolor sit amet, consectetur</p>
             </div>
 
-            <div id="slider">
+            <div class="gallery__images-container">
 
                 <img src="img/Gallery_Image_1.png">
                 <img src="img/Gallery_Image_2.png">
@@ -137,13 +137,13 @@
 
         <section id="checklist">
 
-            <p class="sectionName">Planning ahead</p>
+            <p class="checklist__section-name section-name">Planning ahead</p>
             <h2>Let’s review your <br> checklist of everything</h2>
 
-            <div id="checks">
+            <div class="checklist__items-container">
 
-                <div>
-                    <div class="check">
+                <div class="checklist__row checklist__row1">
+                    <div class="checklist__item">
 
                         <p>Lorem ipsum dolor sit amet, consectetur ds.</p>
 
@@ -156,7 +156,7 @@
                         </div>
                     </div>
 
-                    <div class="check">
+                    <div class="checklist__item">
 
                         <div>
                             <button>
@@ -170,8 +170,8 @@
                     </div>
                 </div>
 
-                <div>
-                    <div class="check">
+                <div class="checklist__row checklist__row2">
+                    <div class="checklist__item">
 
                         <p>Lorem ipsum dolor sit amet, consectetur ds.</p>
 
@@ -184,7 +184,7 @@
                         </div>
                     </div>
 
-                    <div class="check">
+                    <div class="checklist__item">
 
                         <div>
                             <button>
@@ -198,8 +198,8 @@
                     </div>
                 </div>
 
-                <div>
-                    <div class="check">
+                <div class="checklist__row checklist__row3">
+                    <div class="checklist__item">
 
                         <p>Lorem ipsum dolor sit amet, consectetur ds.</p>
 
@@ -212,7 +212,7 @@
                         </div>
                     </div>
 
-                    <div class="check">
+                    <div class="checklist__item">
 
                         <div>
                             <button>
@@ -226,7 +226,7 @@
                     </div>
                 </div>
 
-                <div>
+                <div class="checklist__image-container">
                     <img src="img/Checklist_Image.png">
                 </div>
             </div>
@@ -234,9 +234,10 @@
 
         <section id="reviews">
 
-            <p class="sectionName">Testimonials</p>
+            <p class="section-name">Testimonials</p>
 
-            <div id="reviewsHeader">
+            <div class="reviews__header">
+
                 <h2>Let’s see what fans of <br> Travelulu have to say</h2>
 
                 <div>
@@ -254,14 +255,15 @@
                 </div>
             </div>
 
-            <div>
-                <div class="review">
+            <div class="reviews__items-container">
 
-                    <div class="reviewIcon">
+                <div class="reviews__item">
+
+                    <div class="reviews__item__icon-container">
                         <img src="img/Reviews_Avatar_1.png">
                     </div>
 
-                    <div class="reviewHeader">
+                    <div class="reviews__item__header">
 
                         <h4>Joe Blo</h4>
                         <h5>Visited: France</h5>
@@ -270,13 +272,13 @@
                     <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar lorem justo, id faucibus mi.”</p>
                 </div>
 
-                <div class="review">
+                <div class="reviews__item">
 
-                    <div class="reviewIcon">
+                    <div class="reviews__item__icon-container">
                         <img src="img/Reviews_Avatar_2.png">
                     </div>
 
-                    <div class="reviewHeader">
+                    <div class="reviews__item__header">
 
                         <h4>Jane Blo</h4>
                         <h5>Visited: France</h5>
@@ -285,13 +287,13 @@
                     <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar lorem justo, id faucibus mi.”</p>
                 </div>
 
-                <div class="review">
+                <div class="reviews__item">
 
-                    <div class="reviewIcon">
+                    <div class="reviews__item__icon-container">
                         <img src="img/Reviews_Avatar_3.png">
                     </div>
 
-                    <div class="reviewHeader">
+                    <div class="reviews__item__header">
 
                         <h4>Joe Blo</h4>
                         <h5>Visited: France</h5>
@@ -310,7 +312,7 @@
     </main>
 
     <footer>
-        <div id="companyColumn">
+        <div class="footer__company-column">
 
             <h4>Travelulu</h4>
 
@@ -321,7 +323,7 @@
             </ul>
         </div>
 
-        <div id="servicesColumn">
+        <div class="footer__services-column">
 
             <h4>Services</h4>
 
@@ -334,7 +336,7 @@
             </ul>
         </div>
 
-        <div id="continentsColumn">
+        <div class="footer__continents-column">
 
             <h4>Continents</h4>
 
@@ -348,7 +350,8 @@
             </ul>
         </div>
 
-        <div id="contactsColumn">
+        <div class="footer__contacts-column">
+
             <h4>Contact</h4>
 
             <ul>

@@ -35,13 +35,13 @@ header svg
     margin-right: 65px;
 }
 
-#preview
+#hero
 {
     height: 625px;
     padding-left: 135px;
 }
 
-#preview h1
+#hero h1
 {
     color: #4E4B66;
     font-feature-settings: 'clig' off, 'liga' off;
@@ -56,18 +56,11 @@ header svg
     padding-top: 192px;
 }
 
-#preview button
+#hero button
 {
     width: 243px;
     height: 64px;
 
-    border-radius: 50px;
-
-    margin-top: 40px;
-}
-
-#preview button
-{
     text-align: center;
     font-feature-settings: 'clig' off, 'liga' off;
 
@@ -78,9 +71,13 @@ header svg
     line-height: 28px;
     letter-spacing: 1px;
     text-transform: uppercase;
+
+    border-radius: 50px;
+
+    margin-top: 40px;
 }
 
-#preview button:nth-child(2)
+#hero button:nth-child(2)
 {
     background: #5F2EEA;
     border: none;
@@ -88,7 +85,7 @@ header svg
     color: #F7F7FC;
 }
 
-#preview button:nth-child(3)
+#hero button:nth-child(3)
 {
     background: rgba(0, 0, 0, 0);
     margin-left: 20px;
@@ -97,7 +94,7 @@ header svg
     border: #5F2EEA solid 2px;
 }
 
-#preview img
+#hero img
 {
     margin-top: -417px;
     margin-left: 319px;
@@ -105,7 +102,7 @@ header svg
     z-index: -1;
 }
 
-#metrics
+#statistics
 {
     display: grid;
     grid-template-columns: 484px 472px 484px;
@@ -116,36 +113,36 @@ header svg
     justify-content: space-between;
 }
 
-#metrics .metric:nth-child(1)
+#statistics .statistics__metric:nth-child(1)
 {
     border-right: none;
     padding-left: 134px;
 }
 
-#metrics .metric:nth-child(2)
+#statistics .statistics__metric:nth-child(2)
 {
     border-right: none;
     padding-left: 89px;
 }
 
-#metrics .metric:nth-child(3)
+#statistics .statistics__metric:nth-child(3)
 {
     padding-left: 64px;
 }
 
-.metric
+.statistics__metric
 {
     border: #D9DBE9 solid 1px;
     padding-top: 47px;
 
 }
 
-.metric div
+.statistics__metric div
 {
     display: flex;
 }
 
-.metric h3
+.statistics__metric h3
 {
     color: #2A00A2;
     font-feature-settings: 'clig' off, 'liga' off;
@@ -160,7 +157,7 @@ header svg
     margin-left: 20px;
 }
 
-.metric p
+.statistics__metric p
 {
     width: 245px;
     height: 90px;
@@ -179,7 +176,7 @@ header svg
     margin-left: 58px;
 }
 
-.sectionName
+.section-name
 {
     color: #BCA4FF;
     font-feature-settings: 'clig' off, 'liga' off;
@@ -205,35 +202,35 @@ h2
     letter-spacing: 1px;
 }
 
-#toolList
+#tools
 {
     height: 999px;
 }
 
-#toolList .sectionName
+#tools .section-name
 {
     padding-top: 82px;
     padding-left: 138px;
 }
 
-.horizontalTitleAndText
+.xxxxxxxxxxxxxxxxxx
 {
     display: flex;
     justify-content: center;
     gap: 228px;
 }
 
-#toolList .horizontalTitleAndText h2
+#tools .xxxxxxxxxxxxxxxxxx h2
 {
     padding-top: 36px;
 }
 
-#toolList .horizontalTitleAndText p
+#tools .xxxxxxxxxxxxxxxxxx p
 {
     padding-top: 38px;
 }
 
-.horizontalTitleAndText p
+.xxxxxxxxxxxxxxxxxx p
 {
     width: 440px;
 
@@ -248,7 +245,7 @@ h2
     letter-spacing: 1px;
 }
 
-#tools
+#tools__items-container
 {
     display: flex;
     justify-content: center;
@@ -256,7 +253,7 @@ h2
     gap: 30px;
 }
 
-.tool
+.tools__item
 {
     width: 369px;
     height: 522px;
@@ -269,7 +266,7 @@ h2
     align-items: center;
 }
 
-.tool img
+.tools__item img
 {
     width: 304px;
     height: 180px;
@@ -277,7 +274,7 @@ h2
     padding-top: 53px;
 }
 
-.tool h5
+.tools__item h5
 {
     color: #000;
     text-align: center;
@@ -293,7 +290,7 @@ h2
     padding-left: 28px;
 }
 
-.tool p
+.tools__item p
 {
     width: 295px;
 
@@ -311,7 +308,7 @@ h2
     padding-left: 5px;
 }
 
-.tool button
+.tools__item button
 {
     width: 245px;
     height: 64px;
@@ -337,12 +334,12 @@ h2
     border-radius: 50px;
 }
 
-#photoGallery .horizontalTitleAndText h2
+#photoGallery .xxxxxxxxxxxxxxxxxx h2
 {
     margin-top: 36px;
 }
 
-#photoGallery .horizontalTitleAndText p
+#photoGallery .xxxxxxxxxxxxxxxxxx p
 {
     color: #000;
     font-feature-settings: 'clig' off, 'liga' off;
@@ -357,12 +354,12 @@ h2
     margin-top: 52px;
 }
 
-#photoGallery .sectionName
+#photoGallery .section-name
 {
     margin-left: 134px;
 }
 
-#slider
+#gallery__images-container
 {
     display: flex;
     gap: 32px;
@@ -393,7 +390,7 @@ h2
     justify-content: center;
 }
 
-.check
+.checklist__item
 {
     display: flex;
     gap: 35px;
@@ -402,7 +399,7 @@ h2
     height: 140px;
 }
 
-.check p
+.checklist__item p
 {
     color: #4E4B66;
     text-align: right;
@@ -416,7 +413,7 @@ h2
     letter-spacing: 1px;
 }
 
-.check button
+.checklist__item button
 {
     width: 54px;
     height: 54px;
@@ -428,7 +425,7 @@ h2
     margin-top: 10px;
 }
 
-.check button svg
+.checklist__item button svg
 {
     margin-top: 3px;
 }
@@ -457,13 +454,13 @@ h2
     margin-left: 40px;
 }
 
-#reviews .sectionName
+#reviews .section-name
 {
     margin-top: 128px;
     margin-left: 130px;
 }
 
-#reviewsHeader
+#reviews__header
 {
     display: flex;
     justify-content: space-between;
@@ -471,7 +468,7 @@ h2
     margin-top: 37px;
 }
 
-#reviewsHeader button
+#reviews__header button
 {
     width: 78px;
     height: 78px;
@@ -483,12 +480,12 @@ h2
     border: none;
 }
 
-#reviewsHeader h2
+#reviews__header h2
 {
     margin-left: 135px;
 }
 
-#reviewsHeader > div
+#reviews__header > div
 {
     display: flex;
     gap: 25px;
@@ -506,7 +503,7 @@ h2
     margin-top: 115px;
 }
 
-.review
+.reviews__item
 {
     width: 369px;
     height: 357px;
@@ -538,7 +535,7 @@ h2
     margin-left: 5px;
 }
 
-.reviewHeader
+.reviews__item__header
 {
     width: 271px;
     height: 74px;
@@ -547,7 +544,7 @@ h2
     margin-top: 15px;
 }
 
-.reviewHeader h4
+.reviews__item__header h4
 {
     color: #5F2EEA;
     text-align: center;
@@ -560,7 +557,7 @@ h2
     letter-spacing: 1px;
 }
 
-.reviewHeader h5
+.reviews__item__header h5
 {
     color: #5F2EEA;
     font-feature-settings: 'clig' off, 'liga' off;
@@ -572,7 +569,7 @@ h2
     letter-spacing: 1px;
 }
 
-.review p
+.reviews__item p
 {
     width: 300px;
 
