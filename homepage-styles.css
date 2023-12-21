@@ -1,4 +1,4 @@
-   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 *
 {
@@ -243,7 +243,7 @@ h2
 .tools__items-container
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 94px;
 
     gap: 32px;
@@ -405,22 +405,16 @@ h2
     margin: 36px auto;
 }
 
-.checklist__items-container
-{
-    display: flex;
-    flex-direction: column;
-}
-
 .checklist__row
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .checklist__row1
 {
-    margin-top: 90px;
-    gap: 200px;
+    margin-top: 120px;
+    gap: 474px;
 
     padding-left: 120px;
     padding-right: 120px;
@@ -428,7 +422,7 @@ h2
 
 .checklist__row2
 {
-    gap: 300px;
+    gap: 554px;
 
     margin-top: 40px;
 
@@ -439,7 +433,7 @@ h2
 .checklist__row3
 {
     margin-top: 40px;
-    gap: 200px;
+    gap: 474px;
 
     padding-left: 120px;
     padding-right: 120px;
@@ -487,19 +481,25 @@ h2
 
 #reviews .section-name
 {
-    margin-top: 128px;
-    margin-left: 130px;
+    margin-top: 133px;
+    margin-left: 135px;
 }
 
-#reviews__header
+.reviews__header
 {
     display: flex;
     justify-content: space-between;
 
     margin-top: 37px;
+    padding-left: 135px;
 }
 
-#reviews__header button
+.reviews__header h2
+{
+   width: 577px;
+}
+
+.reviews__header button
 {
     width: 78px;
     height: 78px;
@@ -511,27 +511,24 @@ h2
     border: none;
 }
 
-#reviews__header h2
+.reviews__header__buttons-container
 {
-    margin-left: 135px;
+   display: flex;
+   gap: 25px;
+
+   margin-top: 15px;
+   margin-right: 145px;
 }
 
-#reviews__header > div
-{
-    display: flex;
-    gap: 25px;
-
-    margin-top: 15px;
-    margin-right: 145px;
-}
-
-#reviews > div:nth-child(3)
+.reviews__items-container
 {
     display: flex;
     gap: 30px;
     justify-content: center;
 
     margin-top: 115px;
+    padding-left: 135px;
+    padding-right: 135px;
 }
 
 .reviews__item
@@ -549,7 +546,7 @@ h2
     border: 1px solid #E4DAFF;
 }
 
-.reviewIcon
+.reviews__item__icon-container
 {
     width: 122px;
     height: 122px;
@@ -560,7 +557,7 @@ h2
     margin-top: -58px;
 }
 
-.reviewIcon img
+.reviews__item__icon-container img
 {
     margin-top: 10px;
     margin-left: 5px;
