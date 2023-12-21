@@ -219,6 +219,7 @@ h2
 
 .tools__header h2
 {
+    width: 515px;
     padding-top: 36px;
 }
 
@@ -381,24 +382,67 @@ h2
 
 #checklist
 {
-    display: flex;
-    flex-direction: column;
-
-    align-items: center;
-
     margin-top: 124px;
+
+    background-image: url("img/Checklist_Image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-position-y: 290px;
 }
 
-#checklist h2
+#checklist .section-name
 {
-    margin-top: 36px;
     text-align: center;
 }
 
-#checks > div
+#checklist > h2
+{
+    width: 620px;
+
+    text-align: center;
+
+    margin: 36px auto;
+}
+
+.checklist__items-container
 {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+}
+
+.checklist__row
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.checklist__row1
+{
+    margin-top: 90px;
+    gap: 200px;
+
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.checklist__row2
+{
+    gap: 300px;
+
+    margin-top: 40px;
+
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.checklist__row3
+{
+    margin-top: 40px;
+    gap: 200px;
+
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
 .checklist__item
@@ -439,30 +483,6 @@ h2
 .checklist__item button svg
 {
     margin-top: 3px;
-}
-
-#checks > div:nth-child(1)
-{
-    margin-top: 122px;
-    gap: 490px;
-}
-
-#checks > div:nth-child(2)
-{
-    margin-top: 40px;
-    gap: 570px;
-}
-
-#checks > div:nth-child(3)
-{
-    margin-top: 40px;
-    gap: 490px;
-}
-
-#checks img
-{
-    margin-top: -500px;
-    margin-left: 40px;
 }
 
 #reviews .section-name
