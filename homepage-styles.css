@@ -205,27 +205,23 @@ h2
 #tools .section-name
 {
     padding-top: 82px;
-    padding-left: 138px;
+    padding-left: 135px;
 }
 
-.xxxxxxxxxxxxxxxxxx
+.tools__header
 {
     display: flex;
-    justify-content: center;
-    gap: 228px;
+    justify-content: space-between;
+
+    padding-left: 135px;
 }
 
-#tools .xxxxxxxxxxxxxxxxxx h2
+.tools__header h2
 {
     padding-top: 36px;
 }
 
-#tools .xxxxxxxxxxxxxxxxxx p
-{
-    padding-top: 38px;
-}
-
-.xxxxxxxxxxxxxxxxxx p
+.tools__header p
 {
     width: 440px;
 
@@ -238,14 +234,21 @@ h2
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 1px;
+
+    padding-top: 38px;
+    padding-right: 135px;
 }
 
-#tools__items-container
+.tools__items-container
 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding-top: 94px;
-    gap: 30px;
+
+    gap: 32px;
+
+    padding-left: 135px;
+    padding-right: 135px;
 }
 
 .tools__item
