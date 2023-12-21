@@ -83,7 +83,7 @@ header svg
     margin-top: 40px;
 }
 
-.hero__button-violet
+.hero__button--violet
 {
     background: #5F2EEA;
     border: none;
@@ -91,7 +91,7 @@ header svg
     color: #F7F7FC;
 }
 
-.hero__button-transparent
+.hero__button--transparent
 {
     background: rgba(0, 0, 0, 0);
     margin-left: 20px;
@@ -103,36 +103,33 @@ header svg
 #statistics
 {
     display: grid;
-    grid-template-columns: 484px 472px 484px;
+    grid-template-columns: 33.6% 32.8% 33.6%;
     grid-template-rows: 200px;
 
     height: 200px;
-
-    justify-content: space-between;
 }
 
-#statistics .statistics__metric:nth-child(1)
+.statistics__metric--first
 {
     border-right: none;
-    padding-left: 134px;
+    padding-left: 75px;
 }
 
-#statistics .statistics__metric:nth-child(2)
+.statistics__metric--second
 {
     border-right: none;
-    padding-left: 89px;
+    padding-left: 75px;
 }
 
-#statistics .statistics__metric:nth-child(3)
+.statistics__metric--third
 {
-    padding-left: 64px;
+    padding-left: 75px;
 }
 
 .statistics__metric
 {
     border: #D9DBE9 solid 1px;
     padding-top: 47px;
-
 }
 
 .statistics__metric div
