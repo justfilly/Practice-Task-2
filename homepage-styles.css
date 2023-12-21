@@ -413,7 +413,7 @@ h2
 
 .checklist__row1
 {
-    margin-top: 120px;
+    margin-top: 122px;
     gap: 474px;
 
     padding-left: 120px;
@@ -481,7 +481,7 @@ h2
 
 #reviews .section-name
 {
-    margin-top: 133px;
+    margin-top: 137px;
     margin-left: 135px;
 }
 
@@ -634,6 +634,8 @@ h2
 
 #contacts h2
 {
+    width: 605px;
+
     color: white;
     margin-top: 140px;
 }
@@ -665,7 +667,10 @@ h2
 
 footer
 {
+    width: 1167px;
     display: flex;
+
+    margin: 0 auto;
 }
 
 footer h4
@@ -685,19 +690,17 @@ footer ul
     list-style: none;
 }
 
-#companyColumn
+.footer__company-column
 {
     width: 257px;
-
-    margin-left: 135px;
 }
 
-#companyColumn h4
+.footer__company-column h4
 {
     color: #5F2EEA;
 }
 
-#companyColumn li:nth-child(1)
+.footer__company-column li:nth-child(1)
 {
     color: #000;
     font-feature-settings: 'clig' off, 'liga' off;
@@ -712,7 +715,7 @@ footer ul
     margin-top: 25px;
 }
 
-#companyColumn li:nth-child(2)
+.footer__company-column li:nth-child(2)
 {
     color: #000;
     font-feature-settings: 'clig' off, 'liga' off;
@@ -727,12 +730,12 @@ footer ul
     margin-top: 25px;
 }
 
-#servicesColumn
+.footer__services-column
 {
     margin-left: 210px;
 }
 
-#servicesColumn li, #continentsColumn li, #contactsColumn li
+.footer__services-column li, .footer__continents-column li, .footer__contacts-column li
 {
     color: #6E7191;
     font-feature-settings: 'clig' off, 'liga' off;
@@ -747,19 +750,19 @@ footer ul
     margin-top: 21px;
 }
 
-#continentsColumn
+.footer__continents-column
 {
     margin-left: 152px;
 }
 
-#contactsColumn
+.footer__contacts-column
 {
     width: 160px;
 
     margin-left: 148px;
 }
 
-#contactsColumn li:nth-child(1)
+.footer__contacts-column li:nth-child(1)
 {
     color: #5F2EEA;
     font-feature-settings: 'clig' off, 'liga' off;
