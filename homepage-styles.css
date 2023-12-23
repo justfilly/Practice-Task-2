@@ -93,7 +93,7 @@ header svg
     display: flex;
     gap: 25px;
 
-    margin-top: 25px;
+    margin-top: 40px;
 }
 
 .hero__button--violet
@@ -114,34 +114,29 @@ header svg
 
 #statistics
 {
+    height: 200px;
+
     display: grid;
     grid-template-columns: 33.6% 32.8% 33.6%;
     grid-template-rows: 200px;
-
-    height: 200px;
 }
 
 .statistics__metric--first
 {
     border-right: none;
-    padding-left: 75px;
 }
 
 .statistics__metric--second
 {
     border-right: none;
-    padding-left: 75px;
-}
-
-.statistics__metric--third
-{
-    padding-left: 75px;
 }
 
 .statistics__metric
 {
     border: #D9DBE9 solid 1px;
+
     padding-top: 47px;
+    padding-left: 75px;
 }
 
 .statistics__metric div
@@ -211,12 +206,12 @@ h2
 
 #tools
 {
-    height: 999px;
+    height: 781px;
+    margin-top: 85px;
 }
 
 #tools .section-name
 {
-    padding-top: 82px;
     padding-left: 135px;
 }
 
@@ -256,7 +251,7 @@ h2
 {
     display: flex;
     justify-content: center;
-    padding-top: 94px;
+    margin-top: 94px;
 
     gap: 32px;
 
@@ -843,5 +838,63 @@ footer ul
         grid-template-rows: 201px 201px 201px;
 
         justify-content: center;
+
+        margin-top: 87px;
+    }
+
+    .statistics__metric
+    {
+        padding-left: 30px;
+    }
+
+    h2
+    {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    #tools
+    {
+        height: 1936px;
+
+        margin-top: 44px;
+    }
+
+    #tools .section-name
+    {
+        padding-left: 35px;
+    }
+
+    .tools__header
+    {
+        flex-direction: column;
+        justify-content: space-between;
+
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .tools__header h2
+    {
+        width: 350px;
+        padding-top: 16px;
+    }
+
+    .tools__header p
+    {
+        width: 388px;
+    }
+
+    .tools__items-container
+    {
+        flex-direction: column;
+        gap: 36px;
+
+        padding-left: 30px;
+        padding-right: 30px;
+
+        margin-top: 36px;
+
+        align-items: center;
     }
 }
