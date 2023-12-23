@@ -6,6 +6,12 @@
     padding: 0;
 }
 
+body
+{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
 header
 {
     display: flex;
@@ -79,8 +85,14 @@ header svg
     text-transform: uppercase;
 
     border-radius: 50px;
+}
 
-    margin-top: 40px;
+.hero__buttons-container
+{
+    display: flex;
+    gap: 25px;
+
+    margin-top: 25px;
 }
 
 .hero__button--violet
@@ -94,7 +106,6 @@ header svg
 .hero__button--transparent
 {
     background: rgba(0, 0, 0, 0);
-    margin-left: 20px;
 
     color: #5F2EEA;
     border: #5F2EEA solid 2px;
@@ -775,6 +786,43 @@ footer ul
     letter-spacing: 1px;
 }
 
-@media screen and (max-width: 481px)
+@media screen and (max-width: 482px)
 {
+    header
+    {
+        height: 115px;
+    }
+
+    header h3
+    {
+        margin-left: 45px;
+    }
+
+    #hero
+    {
+        height: 742px;
+
+        background-position: -80px 43px;
+        background-size: 572px 333px;
+
+        padding-left: 0;
+    }
+
+    #hero h1
+    {
+        padding-top: 419px;
+        padding-left: 51px;
+    }
+
+    .hero__buttons-container
+    {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    #hero button
+    {
+        width: 420px;
+    }
 }
