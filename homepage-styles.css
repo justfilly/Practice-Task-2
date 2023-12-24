@@ -507,10 +507,15 @@ h2
     margin-top: 3px;
 }
 
+#reviews
+{
+    height: 639px;
+    margin-top: 126px;
+}
+
 #reviews .section-name
 {
-    margin-top: 137px;
-    margin-left: 135px;
+    padding-left: 135px;
 }
 
 .reviews__header
@@ -665,6 +670,7 @@ h2
     width: 605px;
 
     color: white;
+
     margin-top: 140px;
 }
 
@@ -1020,5 +1026,70 @@ footer ul
     .checklist__item--right svg
     {
         transform: scale(-1,1);
+    }
+
+    #reviews
+    {
+        height: 595px;
+        margin-top: 53px;
+    }
+
+    #reviews .section-name
+    {
+        padding-left: 35px;
+    }
+
+    .reviews__header
+    {
+        margin-top: 16px;
+        padding-left: 35px;
+    }
+
+    .reviews__header__buttons-container
+    {
+        display: none;
+    }
+
+    .reviews__items-container
+    {
+        justify-content: left;
+
+        margin-top: 122px;
+        padding-left: 35px;
+        padding-right: 0;
+    }
+
+    .reviews__item
+    {
+        flex-shrink: 0;
+    }
+
+    #contacts
+    {
+        width: 427px;
+        height: 463px;
+
+        background-size: 100% 100%;
+
+        margin: 52px 27px 0;
+    }
+
+    #contacts h2
+    {
+        width: 380px;
+        height: 170px;
+
+        font-size: 48px;
+        line-height: 50px;
+
+        margin-top: 129px;
+    }
+
+    #contacts button
+    {
+        width: 353px;
+        height: 64px;
+
+        margin-top: 8px;
     }
 }
