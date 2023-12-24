@@ -396,6 +396,8 @@ h2
 
 #checklist
 {
+    height: 799px;
+
     margin-top: 124px;
 
     background-image: url("img/Checklist_Image.png");
@@ -438,7 +440,7 @@ h2
 {
     gap: 554px;
 
-    margin-top: 40px;
+    margin-top: 110px;
 
     padding-left: 90px;
     padding-right: 90px;
@@ -446,7 +448,7 @@ h2
 
 .checklist__row3
 {
-    margin-top: 40px;
+    margin-top: 110px;
     gap: 474px;
 
     padding-left: 120px;
@@ -456,14 +458,16 @@ h2
 .checklist__item
 {
     display: flex;
-    gap: 35px;
+    gap: 30px;
 
-    width: 320px;
-    height: 140px;
+    width: 330px;
+    height: 70px;
 }
 
 .checklist__item p
 {
+    width: 222px;
+
     color: #4E4B66;
     text-align: right;
     font-feature-settings: 'clig' off, 'liga' off;
@@ -476,6 +480,17 @@ h2
     letter-spacing: 1px;
 }
 
+.checklist__item__button-container
+{
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .checklist__item button
 {
     width: 54px;
@@ -485,7 +500,6 @@ h2
     border: #5F2EEA solid 2px;
     box-shadow: 0 0 0 8px #E4DAFF;
     background: white;
-    margin-top: 10px;
 }
 
 .checklist__item button svg
@@ -949,5 +963,62 @@ footer ul
     {
         width: 343px;
         height: 364px;
+    }
+
+    #checklist
+    {
+        height: 1225px;
+
+        margin-top: 69px;
+
+        background-size: 571px 337px;
+        background-position: -68px 191px;
+    }
+
+    #checklist .section-name
+    {
+        text-align: left;
+
+        padding-left: 35px;
+    }
+
+    #checklist > h2
+    {
+        width: 425px;
+
+        text-align: left;
+
+        margin: 16px 0 0;
+        padding-left: 35px;
+    }
+
+    .checklist__items-container
+    {
+        margin-top: 490px;
+    }
+
+    .checklist__row
+    {
+        flex-direction: column;
+        gap: 40px;
+
+        margin-top: 40px;
+        padding: 0;
+    }
+
+    .checklist__item--left
+    {
+        flex-direction: row-reverse;
+        padding-left: 30px;
+    }
+
+    .checklist__item--right
+    {
+        padding-left: 100px;
+    }
+
+    .checklist__item--right svg
+    {
+        transform: scale(-1,1);
     }
 }
